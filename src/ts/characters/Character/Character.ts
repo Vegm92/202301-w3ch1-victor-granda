@@ -1,7 +1,7 @@
 import type {
   CharacterStructure,
   CharacterDataStructure,
-} from "../types/types";
+} from "../../types/types";
 
 export class Character implements CharacterStructure {
   public isAlive = true;
@@ -17,3 +17,5 @@ export class Character implements CharacterStructure {
     this.isAlive = false;
   }
 }
+
+export default Character;
