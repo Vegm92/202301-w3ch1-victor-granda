@@ -1,20 +1,20 @@
-import { type Character } from "../Character/Character";
-import { type Fighter } from "../Fighter/Fighter";
+import { type Character } from "../characters/Character/Character";
+import { type Fighter } from "../characters/Fighter/Fighter";
 
-export type CharacterDataStructure = {
+export interface CharacterDataStructure {
   name: string;
   family: string;
   age: number;
   imageSource: string;
-};
+}
 
-export type CharacterStructure = {
+export interface CharacterStructure {
   characterData: CharacterDataStructure;
   isAlive: boolean;
   series: string;
   communicate: () => string;
   die: () => void;
-};
+}
 
 export type KingStructure = {
   yearsOfReign: number;

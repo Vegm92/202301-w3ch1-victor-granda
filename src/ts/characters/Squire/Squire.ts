@@ -1,4 +1,7 @@
-import type { SquireStructure, CharacterDataStructure } from "../types/types";
+import type {
+  SquireStructure,
+  CharacterDataStructure,
+} from "../../types/types";
 import { Character } from "../Character/Character";
 import { Fighter } from "../Fighter/Fighter";
 

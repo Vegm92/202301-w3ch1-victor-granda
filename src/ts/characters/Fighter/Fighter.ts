@@ -1,4 +1,7 @@
-import type { CharacterDataStructure, FighterStructure } from "../types/types";
+import type {
+  CharacterDataStructure,
+  FighterStructure,
+} from "../../types/types";
 import { Character } from "../Character/Character";
 
 export class Fighter extends Character implements FighterStructure {
