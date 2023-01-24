@@ -16,20 +16,34 @@ export interface CharacterStructure {
   die: () => void;
 }
 
-export type KingStructure = {
+export interface KingStructure extends CharacterStructure {
   yearsOfReign: number;
-} & CharacterStructure;
+}
 
-export type FighterStructure = {
+export interface FighterStructure extends CharacterStructure {
   weapon: string;
   dexterity: number;
-} & CharacterStructure;
+}
 
-export type SquireStructure = {
+export interface SquireStructure extends CharacterStructure {
   serves: Fighter;
   kissAssLevel: number;
-} & CharacterStructure;
+}
 
-export type AdvisorStructre = {
+export interface AdvisorStructre extends CharacterStructure {
   advises: Character;
-} & CharacterStructure;
+}
+export interface CardComponent {
+  element: Element;
+}
+
+export interface ImageComponentStructure {
+  element: Element;
+}
+
+export interface CardBody {
+  element: Element;
+}
+export interface CardOverlay {
+  element: Element;
+}
