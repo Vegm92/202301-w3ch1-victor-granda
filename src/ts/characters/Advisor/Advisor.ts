@@ -1,8 +1,5 @@
 import { Character } from "../Character/Character";
-import type {
-  AdvisorStructre,
-  CharacterDataStructure,
-} from "../../types/types";
+import type { AdvisorStructre, CharacterDataStructure } from "../../types";
 
 export class Advisor extends Character implements AdvisorStructre {
   constructor(

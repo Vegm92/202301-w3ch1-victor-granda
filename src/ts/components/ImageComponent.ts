@@ -1,5 +1,5 @@
 import type Character from "../characters/Character/Character";
-import { type ImageComponentStructure } from "../types/types";
+import { type ImageComponentStructure } from "../types";
 
 class ImageComponent implements ImageComponentStructure {
   element: Element;
