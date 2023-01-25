@@ -1,5 +1,5 @@
-import { type Character } from "../characters/Character/Character";
-import { type Fighter } from "../characters/Fighter/Fighter";
+import { type Character } from "./characters/Character/Character";
+import { type Fighter } from "./characters/Fighter/Fighter";
 
 export interface CharacterDataStructure {
   name: string;
@@ -33,7 +33,7 @@ export interface SquireStructure extends CharacterStructure {
 export interface AdvisorStructre extends CharacterStructure {
   advises: Character;
 }
-export interface CardComponent {
+export interface CardComponentStructure {
   element: Element;
 }
 
@@ -41,9 +41,9 @@ export interface ImageComponentStructure {
   element: Element;
 }
 
-export interface CardBody {
+export interface CardBodyComponentStructure {
   element: Element;
 }
-export interface CardOverlay {
+export interface CardOverlayComponentStructure {
   element: Element;
 }

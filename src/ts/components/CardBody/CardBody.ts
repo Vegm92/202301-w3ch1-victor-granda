@@ -2,6 +2,7 @@ import type Character from "../../characters/Character/Character";
 
 interface CardComponentStruture {
   element: Element;
+  character: Character;
 }
 
 class CardBodyComponent implements CardComponentStruture {

@@ -1,7 +1,4 @@
-import type {
-  CharacterStructure,
-  CharacterDataStructure,
-} from "../../types/types";
+import type { CharacterStructure, CharacterDataStructure } from "../../types";
 
 export class Character implements CharacterStructure {
   public isAlive = true;

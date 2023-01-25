@@ -1,5 +1,5 @@
 import { Character } from "../Character/Character";
-import type { KingStructure, CharacterDataStructure } from "../../types/types";
+import type { KingStructure, CharacterDataStructure } from "../../types";
 
 export class King extends Character implements KingStructure {
   constructor(
